@@ -22,33 +22,9 @@ This is a backend RESTful API built with **Node.js**, designed using a clean and
 - Sequelize / Prisma / TypeORM
 - dotenv for environment variable management
 
-## Project Structure (Example)
-
-src/
-├── resources/
-│ ├── auth
-|   ├── auth.controller.ts
-│   ├── auth.service.ts
-│ 
-├── user/
-│ ├── user.controller.ts
-│ ├── user.service.ts
-│ ├──── model/
-│   └──── user.entity.ts 
-│
-├── middleware/
-│ └── jwt.middleware.ts
-│
-├── config/
-│ └── database.ts
-│
-├── app.ts
-└── index.ts
-
-
 ## API Endpoints
 
-All Endpoint using 'api/v1'
+All Endpoint using '*api/v1*'
 
 ### Auth
 
